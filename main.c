@@ -5,14 +5,11 @@
 
 int main (void) 
 {
-
     int menu, vetor, matriz, funcao, derivada, intergral;
 
-
-
-while (menu != 6)
-{
-    
+    while (menu != 6)
+    {
+        
         printf ( " \n \n " );
         printf ( "      _______________________________________ \n " );
         printf ( "     |             Menu Principal            | \n " );
@@ -53,32 +50,32 @@ while (menu != 6)
 
             }
         case 2: //Matriz
-        while(matriz !=5){      
+            while(matriz !=5){      
 
-            printf ("1- Determinante \n");
-            printf ("2- Soma \n");
-            printf ("3- Subtracao \n");
-            printf ("4- Produto \n");
-            printf ("5- Voltar ao menu pricipal \n");
-            printf ("\n\n");
+                printf ("1- Determinante \n");
+                printf ("2- Soma \n");
+                printf ("3- Subtracao \n");
+                printf ("4- Produto \n");
+                printf ("5- Voltar ao menu pricipal \n");
+                printf ("\n\n");
 
-            printf("Digite uma opcao acima : ");
-            scanf("%d", &matriz);
+                printf("Digite uma opcao acima : ");
+                scanf("%d", &matriz);
 
-            switch(matriz){
-                case 1: //Determinante
+                switch(matriz){
+                    case 1: //Determinante
 
-                case 2: //Soma
+                    case 2: //Soma
 
-                case 3: // Subtracao
+                    case 3: // Subtracao
 
-                case 4: //Produto
+                    case 4: //Produto
 
-                break;
+                    break;
+                }
             }
 
-
-        }
+        
         case 3: //Funcao
             while (funcao != 11){
 
@@ -121,11 +118,11 @@ while (menu != 6)
                         break;
 
                     }
-  
+
             }
 
             case 4: //Derivadas
-            while (derivada != 11){
+                while (derivada != 11){
 
                     printf("1-𝑓(𝑥)=𝑘");
                     printf("2- 𝑓(𝑥)=𝑥^𝑘");
@@ -165,88 +162,14 @@ while (menu != 6)
 
                         break;
                     }
-
+                }
 
 
             }
 
 
-
-
-
-
-
-
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 
 }
