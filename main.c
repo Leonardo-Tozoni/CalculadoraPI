@@ -2,9 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
-#include <locale.h>
-#include <conio.h>
-
 
 int main (void) 
 {
@@ -16,19 +13,19 @@ int main (void)
 while (menu != 6)
 {
     
-        printf ( " \ n \ n " );
-        printf ( "      _____________________________________ \ n " );
-        printf ( "     | Menu Principal | \ n " );
-        printf ( "     | _____________________________________ | \ n " );
-        printf ( "     | | \ n " );
-        printf ( "     | 1- Vetor | \ n " );
-        printf ( "     | 2- Matriz | \ n " );
-        printf ( "     | 3- Funcao | \ n " );
-        printf ( "     | 4- Derivada | \ n " );
-        printf ( "     | 5- Integral | \ n " );
-        printf ( "     | Sair (6) | \ n " );
-        printf ( "     | _____________________________________ | \ n " );
-        printf ( " \ n     Digite uma das opcoes acima: " );
+        printf ( " \n \n " );
+        printf ( "      _______________________________________ \n " );
+        printf ( "     |             Menu Principal            | \n " );
+        printf ( "     | _____________________________________ | \n " );
+        printf ( "     |                                       | \n " );
+        printf ( "     | 1- Vetor                              | \n " );
+        printf ( "     | 2- Matriz                             | \n " );
+        printf ( "     | 3- Funcao                             | \n " );
+        printf ( "     | 4- Derivada                           | \n " );
+        printf ( "     | 5- Integral                           | \n " );
+        printf ( "     | Sair (6)                              | \n " );
+        printf ( "     | _____________________________________ | \n " );
+        printf ( " \n     Digite uma das opcoes acima: " );
         scanf ( " % d " , & menu);
         system ( " cls " );
 
